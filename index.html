@@ -12,31 +12,125 @@
 </head>
 	<!-- Inicio del cuerpo-->
 	<body>
-		<!-- Inicio fila de la cabecera-->
+		
+<!-- MENU INICIO  ------------------------------------------------------------------------------->
+
+<div class="container-liquid">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  <a class="navbar-brand" href="#"><img src="img/twitter.png"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Lecturas
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="lectura1.html">Lectura 1</a>
+	          <a class="dropdown-item" href="lectura2.html">Lectura 2</a>
+	          <a class="dropdown-item" href="lectura3.html">Lectura 3</a>
+	          <a class="dropdown-item" href="lectura4.html">Lectura 4</a>
+	          <a class="dropdown-item" href="lectura5.html">Lectura 5</a>
+	          <div class="dropdown-divider"></div>
+	          <!--<a class="dropdown-item" href="#">Something else here</a>-->
+	        </div>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Multimedia
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="multimedia1.html">Multimedia 1</a>
+	          <a class="dropdown-item" href="multimedia2.html">Multimedia 2</a>
+	          <div class="dropdown-divider"></div>
+	          <!--<a class="dropdown-item" href="#">Something else here</a>-->
+	        </div>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Actividades
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="actividad1.html">Actividad 1</a>
+	          <a class="dropdown-item" href="actividad2.html">Actividad 2</a>
+	          <a class="dropdown-item" href="actividad3.html">Actividad 3</a>
+	          <div class="dropdown-divider"></div>
+	          <!--<a class="dropdown-item" href="#">Something else here</a>-->
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link active" href="autores.html">Autores</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+	</nav>
+</div>
+<br>
+<br>
+<!-- MENU FINAL --------------------------------------------------------------------------------->
+<!-- Inicio fila de la cabecera-->
 		<header>
-			<div class="container guideLine">
-				<h1>Header</h1>
-				<h3>12 Columnas</h3>
+			<div class="container">
+				<div class="row">
+  					<div class="col-2"> 
+  						<img class="img-responsive" src="img/logo.png" alt="UNAD">
+  			   		</div>
+				</div>
 			</div>
 		</header>
+<br>
+<br>		
 		<!-- Final fila de la cabecera-->
-		<!-- Inicio del contenedor principal-->
-		<div class="container guideLine">
+
+		<!-- Inicio del contenedor principal que centra la información-->
+		<div class="container">
 			<!-- Inicio de la fila principal compuesta por 2 elementos article y aside -->
-			<section class="main row">			
-				<article class= "col-xs-12 col-sm-8 col-md-9 col lg-9">
+			<div class="row">			
+				<article class= "col-xs-12 col-sm-7 col-md-7">
+						<div>
+							 <img src="img/desarrollo.jpg" hspace="5" vspace="5" class="float-left"/>
+							 <strong>Objetivo general: </strong>El OVI tiene como objetivo explicar los tipos de pruebas realizados en el proceso de desarrollo de software.<br>
+							 <strong>Objetivo especifico 1: </strong>Darle a conocer al estudiante el tipo de pruebas funcionales y no funcionales<br>
+							 <strong>Objetivo especifico 2: </strong>Explicarle al estudiante el tipo de pruebas estructurales.<br>
+							 <strong>Objetivo especifico 3: </strong>Mostrarle al estudiante el tipo de pruebas asociadas al cambio.<br>
+							 Las pruebas de software (en inglés software testing) son las investigaciones empíricas y técnicas cuyo objetivo es proporcionar información objetiva e independiente sobre la calidad del producto a la parte interesada o stakeholder.
+						 </div>	
+					</p>
+				</article>
+				<aside class="col-xs-12 col-sm-5 col-md-5">
+					<div class="embed-responsive embed-responsive-4by3">
+ 					 	<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=qkeD94Kj_UQ"></iframe>
+					</div>
+						
+				</aside>
+			</div>
+<!-- ***********************************************************-->			
+			<div class="row">			
+				<div class= "col-xs-12 col-sm-3 col-md-4">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 					</p>
-				</article>
-				<aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-4">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum					
 					</p>				
-				</aside>
-			</section>
-			<!-- Fin de la fila principal compuesta por dos elementos article y aside -->
-		</div>
+				</div>
+				<div class= "col-xs-12 col-sm-3 col-md-4">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+					</p>
+				</div>
+			</div>
 		<!-- Fin del contenedor principal-->
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/jquery.js"></script>

@@ -4,7 +4,10 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>OVI UNAD Diseño de Sitios WEB</title>
+		<meta name="author" content="Samuel Gutierrez Caro" />
+		<meta name="description" content="En segundo lugar figuran las Pruebas Software no Funcionales que incluyen las pruebas de: Rendimiento, Carga, Estrés, Usabilidad, Mantenibilidad, Fiabilidad o Portabilidad, entre otras. Por tanto se centran en características del software que establecen cómo trabaja el sistema. "/>
+		<meta name="keywords" content="pruebas de software, pruebas funcionales, pruebas no funcionales, pruebas estructurales, software de regresión, repruebas"/>
+		<title>Pruebas no funcionales</title>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -13,11 +16,11 @@
 	<!-- Inicio del cuerpo-->
 
 		
-<!-- MENU INICIO  ------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------->
 	<header>
 		<div class="container-liquid">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-			  <a class="navbar-brand" href="#"><img src="img/twitter.png"></a>
+			  <a class="navbar-brand" href="#"><img src="img/twitter.png" alt="twitter"></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -31,11 +34,11 @@
 			          Lecturas
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="lectura1.html">Lectura 1</a>
-			          <a class="dropdown-item" href="lectura2.html">Lectura 2</a>
-			          <a class="dropdown-item" href="lectura3.html">Lectura 3</a>
-			          <a class="dropdown-item" href="lectura4.html">Lectura 4</a>
-			          <a class="dropdown-item" href="lectura5.html">Lectura 5</a>
+			          <a class="dropdown-item" href="queeslaprueba.html">¿Que es la prueba?</a>
+			          <a class="dropdown-item" href="pruebasfuncionales.html">Pruebas funcionales</a>
+			          <a class="dropdown-item" href="pruebasnofuncionales.html">Pruebas no funcionales</a>
+			          <a class="dropdown-item" href="puebasestructurales.html">Pruebas estructuradas</a>
+			          <a class="dropdown-item" href="softwarederegresionyrepruebas.html">Software de regresión</a>
 			          <div class="dropdown-divider"></div>
 			          <!--<a class="dropdown-item" href="#">Something else here</a>-->
 			        </div>
@@ -45,8 +48,8 @@
 			          Multimedia
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="multimedia1.html">Multimedia 1</a>
-			          <a class="dropdown-item" href="multimedia2.html">Multimedia 2</a>
+			          <a class="dropdown-item" href="videodesarrollopruebasdesoftware.html">Video pruebas de software</a>
+			          <a class="dropdown-item" href="videointroduccionpruebasfuncionales.html">Video pruebas funcionales</a>
 			          <div class="dropdown-divider"></div>
 			          <!--<a class="dropdown-item" href="#">Something else here</a>-->
 			        </div>
@@ -56,10 +59,9 @@
 			          Actividades
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="actividad1.html">Actividad 1</a>
-			          <a class="dropdown-item" href="actividad2.html">Actividad 2</a>
-			          <a class="dropdown-item" href="actividad3.html">Actividad 3</a>
-			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="videoexamenedpuzzle.html">Video examen edpuzzle</a>
+			          <a class="dropdown-item" href="sopadeletraspruebasdesoftware.html">Sopa de letras</a>
+			          <a class="dropdown-item" href="crucigramapruebasdesoftware.html">Crucigrama
 			          <!--<a class="dropdown-item" href="#">Something else here</a>-->
 			        </div>
 			      </li>
@@ -75,6 +77,7 @@
 			</nav>
 		</div>
 	</header>
+<!-------------------------------------------------------------------------------------------------->
 	<br>
 	<br>
 	<div class="container">
@@ -96,14 +99,14 @@
 						<article class= "col-xs-12 col-sm-12 col-md-12 col-lg-12 color1">
 								<div>
 									<p>
-										<head><h5><strong>PRUEBAS FUNCIONALES</strong></h5></head><br>
-										Son tipos de prueba en función del objetivo, típicamente encontraremos el comportamiento del sistema, subsistema o componente software descrito en especificaciones de requisitos o casos de uso, aunque también puede no estar documentado (“que funcione como el sistema al que sustituye”) . Es decir, con las funciones establecemos “lo que el sistema hace”.
+										<head><h5><strong>PRUEBAS NO FUNCIONALES</strong></h5></head><br>
+										En segundo lugar figuran las Pruebas Software no Funcionales que incluyen las pruebas de: Rendimiento, Carga, Estrés, Usabilidad, Mantenibilidad, Fiabilidad o Portabilidad, entre otras. Por tanto se centran en características del software que establecen “cómo trabaja el sistema“.
 									</p>
 									<p>
-										Estas pruebas se definen a partir de funciones o características (como decimos, bien descritas en documentos o bien interpretadas por los probadores) y su interoperabilidad con sistemas específicos, pudiendo ejecutarse en todos los niveles de pruebas (componentes, integración, sistema, etc).
+										Estas pruebas también pueden ejecutarse en todos los niveles de pruebas. Las características no funcionales del software se pueden medir de diversas maneras, por ejemplo, por medio de tiempos de respuesta en el caso de pruebas de rendimiento o por número máximo de sesiones en pruebas de estrés.
 									</p>
 									<p>
-										Se consideran Pruebas de Caja Negra (“black-box testing”) puesto que valoramos el comportamiento externo del sistema. Las Pruebas de Seguridad o las Pruebas de Interoperabilidad entre sistemas o componentes son casos especializados de las pruebas funcionales.
+										Puesto que las Pruebas software no Funcionales normalmente consideran el comportamiento externo del sistema, en la mayoría de los casos se utilizan técnicas de Pruebas de Caja Negra.
 									</p>
 									<p>	
 										Tomado de "Panel.es, Creación inteligente de software, sistemas y servicios T.I . Web https://www.panel.es/blog/software-qa-cuales-son-los-tipos-de-pruebas-software/
@@ -118,12 +121,12 @@
 		<!-- ***********************************************************-->	
 				<div class="container">	
 					<div class="row">			
-						<div class= "col-xs-12 col-sm-12 col-md-6 color8" >
-							<center><img class="img-fluid" src="img/cajanegra.jpg" alt="UNAD"></center>	
+						<div class= "col-xs-12 col-sm-12 col-md-6 color10" >
+							<center><img class="img-fluid" src="img/proceso.jpg" alt="UNAD"></center>	
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-6 color9" >
 							<p><br>
-								Las pruebas de caja negra se limitan a que el tester pruebe con “datos” de entrada y estudie como salen, sin preocuparse  de lo que ocurre en el interior. Principalmente, se centran en módulos o charters de interfaz de usuario (pantalla, ficheros, canales de comunicación…) pero suelen ser útiles en cualquier módulo ya que todos o la mayoría tienen datos de entrada y salida que se pueden comprobar y verificar. Como cualquier otra prueba, las de caja negra se apoyan y basan en la especificación de requisitos y documentación funcional, estos requisitos suelen ser más complejos que los internos, para ello realizaremos una “cobertura de especificación” que será muy recomendable para conseguir probar el mayor campo posible. Tomado de "Globe, Pruebas de caja  negra. Web https://www.globetesting.com/2012/08/pruebas-de-caja-negra/		
+								Las pruebas no funcionales tienen como objetivo realizar comprobaciones que garanticen la calidad del producto desde el punto de vista técnico (comportamiento ante carga, volumen y disponibilidad, entre otros) y al mismo tiempo permiten conocer con anterioridad las capacidades, los límites, los problemas y los riesgos  relacionados con el performance de la arquitectura de las aplicaciones que se liberan en producción. Tomado de "Finding Pasion for Quality", Pruebas no funcionales. Web http://www.findingsqa.com/en/node/23	
 							</p>		
 						</div>
 						

@@ -4,18 +4,22 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>OVI UNAD Diseño de Sitios WEB</title>
+		<title>Software de regresión y repruebas</title>
+		<meta name="author" content="Samuel Gutierrez Caro" />
+		<meta name="description" content="Las Pruebas de Regresión consisten en volver a probar un componente, tras haber sido modificado, para descubrir cualquier defecto introducido, o no cubierto previamente, como consecuencia de los cambios"/>
+		<meta name="keywords" content="pruebas de software, pruebas funcionales, pruebas no funcionales, pruebas estructurales, software de regresión, repruebas"/>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/myweb.css">
 	</head>
 	<!-- Inicio del cuerpo-->
-<!-- MENU INICIO  ------------------------------------------------------------------------------->
+
+<!-------------------------------------------------------------------------------------------------->
 	<header>
 		<div class="container-liquid">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-			  <a class="navbar-brand" href="#"><img src="img/twitter.png"></a>
+			  <a class="navbar-brand" href="#"><img src="img/twitter.png" alt="twitter"></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -29,11 +33,11 @@
 			          Lecturas
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="lectura1.html">Lectura 1</a>
-			          <a class="dropdown-item" href="lectura2.html">Lectura 2</a>
-			          <a class="dropdown-item" href="lectura3.html">Lectura 3</a>
-			          <a class="dropdown-item" href="lectura4.html">Lectura 4</a>
-			          <a class="dropdown-item" href="lectura5.html">Lectura 5</a>
+			          <a class="dropdown-item" href="queeslaprueba.html">¿Que es la prueba?</a>
+			          <a class="dropdown-item" href="pruebasfuncionales.html">Pruebas funcionales</a>
+			          <a class="dropdown-item" href="pruebasnofuncionales.html">Pruebas no funcionales</a>
+			          <a class="dropdown-item" href="puebasestructurales.html">Pruebas estructuradas</a>
+			          <a class="dropdown-item" href="softwarederegresionyrepruebas.html">Software de regresión</a>
 			          <div class="dropdown-divider"></div>
 			          <!--<a class="dropdown-item" href="#">Something else here</a>-->
 			        </div>
@@ -43,8 +47,8 @@
 			          Multimedia
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="multimedia1.html">Multimedia 1</a>
-			          <a class="dropdown-item" href="multimedia2.html">Multimedia 2</a>
+			          <a class="dropdown-item" href="videodesarrollopruebasdesoftware.html">Video pruebas de software</a>
+			          <a class="dropdown-item" href="videointroduccionpruebasfuncionales.html">Video pruebas funcionales</a>
 			          <div class="dropdown-divider"></div>
 			          <!--<a class="dropdown-item" href="#">Something else here</a>-->
 			        </div>
@@ -54,10 +58,9 @@
 			          Actividades
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="actividad1.html">Actividad 1</a>
-			          <a class="dropdown-item" href="actividad2.html">Actividad 2</a>
-			          <a class="dropdown-item" href="actividad3.html">Actividad 3</a>
-			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="videoexamenedpuzzle.html">Video examen edpuzzle</a>
+			          <a class="dropdown-item" href="sopadeletraspruebasdesoftware.html">Sopa de letras</a>
+			          <a class="dropdown-item" href="crucigramapruebasdesoftware.html">Crucigrama
 			          <!--<a class="dropdown-item" href="#">Something else here</a>-->
 			        </div>
 			      </li>
@@ -73,6 +76,7 @@
 			</nav>
 		</div>
 	</header>
+<!-------------------------------------------------------------------------------------------------->
 	<br>
 	<br>
 	<div class="container">
@@ -86,29 +90,53 @@
 	<br>
 		<body>		
 				<!-- Final fila de la cabecera-->
+
 				<!-- Inicio del contenedor principal que centra la información-->
 				<div class="container">
 					<!-- Inicio de la fila principal compuesta por 2 elementos article y aside -->
 					<div class="row">			
-						<article class= "col-xs-12 col-sm-12 col-md-8 color10">
-							<div class="embed-responsive embed-responsive-4by3">
-							  	<iframe width="470" height="402" src="https://edpuzzle.com/embed/assignments/5b20c50669bf0d409d0a99e8/watch" frameborder="0" allowfullscreen></iframe>
-							</div>	
+						<article class= "col-xs-12 col-sm-12 col-md-12 col-lg-12 color1">
+								<div>
+									<p>
+										<head><h5><strong>SOFTWARE DE REGRESION Y LAS RE-PRUEBAS</strong></h5></head><br>
+										Una vez que un defecto ha sido corregido, toca volver a probar el software para confirmar que el defecto ha sido eliminado. Son pruebas repetidas o Re-Pruebas.
+									</p>
+									<p>
+										Las Pruebas de Regresión consisten en volver a probar un componente, tras haber sido modificado, para descubrir cualquier defecto introducido, o no cubierto previamente, como consecuencia de los cambios. Los defectos pueden encontrarse tanto en el software que se ha cambiado como en algún otro componente. Se ejecutan cuando se cambia el software o su entorno. El criterio para decidir la extensión de estas Pruebas de Regresión está basado en el riesgo de no encontrar defectos en el software que anteriormente estaba funcionando correctamente.
+									</p>
+									<p>
+										Las Pruebas de Regresión se realizan sobre un componente ya probado, para verificar que no presenta nuevos defectos cuando se realiza una modificación después de dichas prueba
+									</p>
+									<p>
+										Este tipo de pruebas software deben ser repetibles si han de usarse para pruebas de confirmación (o aseguramiento) y regresión (como Sondas de Disponibilidad, por ejemplo). Los conjuntos de pruebas de regresión (“Regression test suites“) suelen ser bastante estables por lo que son muy buenos candidatos para actividades de automatización de pruebas software.
+									</p>
+									<p>	
+										Tomado de "Panel.es, Creación inteligente de software, sistemas y servicios T.I . Web https://www.panel.es/blog/software-qa-cuales-son-los-tipos-de-pruebas-software/
+									</p>
+								 </div>	
 						</article>
-						<div class="col-xs-12 col-sm-12 col-md-4 color11" >
-							<p><br>
-								En la presente actividad, se utiliza la herramienta Edpuzzle, que permite de un video, poder hacer preguntas y almacenar los resultados en una base de datos, en este caso, se realiza una evaluación en base al video "Pruebas del software" patrocinado por Escuela IT y Desarrolloweb.com, pretende evaluar cuales son los objetivos de las pruebas de software, es un video de 8 minutos que pide ingresar con su cuenta de gmail a realizar el cuestionario.
-							</p>
-							<p>	Este video muestra conceptos básicos acerca de como realizar una prueba de 		Software
-							</p>
-							<p>
-								Tomado de "Canal YouTube", Desarrolloweb.com https://www.youtube.com/watch?v=qkeD94Kj_UQ&feature=youtu.be								
-							</p>
+						
+					</div>
+				</div>
+					<br>
+					
+		<!-- ***********************************************************-->	
+				<div class="container">	
+					<div class="row">			
+						<div class= "col-xs-12 col-sm-12 col-md-6 color10" >
+							<center><img class="img-fluid" src="img/regresion.jpg" alt="UNAD"></center>	
 						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 color9" >
+							<p><br>
+								Pruebas de regresión son pruebas de un programa previamente probado que ha sufrido modificaciones, para asegurarse que no se han introducido o descubierto defectos en áreas del software que no han sido modificadas como resultado de los cambios realizados. Se realiza cuando el software o su entorno han sido modificados. Tomado de "Globee", Pruebas de regresión. Web https://www.globetesting.com/pruebas-de-regresion/
+							</p>		
+						</div>
+						
 					</div>
 				</div>
 				<br>
 		<!--INICIO ***********************************************************Footer-->
+		
 					<footer class="align-middle mt-0.5">
 						<div class="container">
 							<div class= "row" >
@@ -117,6 +145,7 @@
 										<center>Web diseñada por Samuel Gutierrez</center>
 									</p>
 								</div>
+
 								<div class= "col-xs-12 col-sm-3 col-md-4">
 									<p class="text-sm">
 									<center>
@@ -134,7 +163,14 @@
 							</div> 	
 						</div>
 					</footer>
+		
 		<!--FIN***********************************************************Footer-->			
+
+					<!-- Footer -->
+		                
+				<!-- Fin del contenedor principal-->
+		<!-- Latest compiled and minified JavaScript -->
+		
 			<script src="js/jquery.js"></script>
 		        <script src="js/bootstrap.min.js"></script>	
 		</body>

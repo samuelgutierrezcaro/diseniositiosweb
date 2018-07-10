@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>OVI UNAD Diseño de Sitios WEB</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/myweb.css">
+	</head>
+<!-------------------------------------------------------------------------------------------------->
+	<header>
+	<?php
+		include ("includes/menu.php");
+	?>
+	</header>
+<!-------------------------------------------------------------------------------------------------->
+
+	<br>
+	<br>
+		<div class="container">
+			<div class="row">
+		  			<div class="col-2"> 
+		  					<img class="img-responsive" src="img/logo.png" alt="UNAD">
+		  			</div>
+			</div>
+		</div>
+	<br>
+	<br>
+		<body>		
+				<div class="container-fluid">
+ 					<div class="row">
+ 						<div class="col-sx-4 col-sm-4 col-md-3">
+						</div>
+							<div class="col-sx-4 col-sm-4 col-md-6">
+								<div class="row">
+									<div class="col-sx-12 col-sm-12 col-md-12 col-lg-4">
+										<img class="img-liquid" src="img/mifoto.jpg" alt="Samuel Gutierrez">
+									</div>
+									<div class="col-sx-12 col-sm-12 col-md-12 col-lg-8">
+										<p><br>
+											<strong>Nombre:</strong> Samuel Gutierrez<br>
+											<strong>Código:</strong> 10018409<br>
+											<strong>Programa:</strong> Ingenieria de sistemas<br>
+											<strong>Correo:</strong> sanoguca@gmail.com<br>
+											<strong>Skype:</strong> norbeygutierrez@hotmail.com
+										</p>
+									</div>
+								</div>
+							</div>
+						<div class="col-sx-4 col-sm-4 col-md-3">
+						</div>
+					</div>
+				</div>
+<!-------------------------------------------------------------------------------------------------->
+<footer class="align-middle fixed-bottom mt-0.5">
+						<div class="container">
+							<div class= "row" >
+								<div class= "col-xs-12 col-sm-3 col-md-4 textofooter">
+									<p>
+										<center>Web diseñada por Samuel Gutierrez</center>
+									</p>
+								</div>
+
+								<div class= "col-xs-12 col-sm-3 col-md-4">
+									<p class="text-sm">
+									<center>
+									Total de visitas: <a href="https://www.contadorvisitasgratis.com" title="contador de visitas com"><img src="https://counter11.allfreecounter.com/private/contadorvisitasgratis.php?c=lyywwswa4ttc3ca37xj2n6rdnqclk4z9" border="0" title="contador de visitas com" alt="contador de visitas com"></a>
+									<p>
+									</center>
+								</div>
+								<div class= "col-xs-12 col-sm-3 col-md-4">
+									<p>
+									<center>
+									UNAD 2018
+									<p>
+									</center>					
+								</div>
+							</div> 	
+						</div>
+					</footer>
+<!-------------------------------------------------------------------------------------------------->			
+			<script src="js/jquery.js"></script>
+		    <script src="js/bootstrap.min.js"></script>	
+		</body>
+</html>
